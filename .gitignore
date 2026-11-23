@@ -1,0 +1,8 @@
+.DS_Store
+.env*
+*.csv
+*.sqlite*
+*.db
+*.zip
+*.p8
+*.p12
