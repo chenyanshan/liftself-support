@@ -5,7 +5,7 @@ This records publisher-confirmed changes. It does not declare an App Store or Go
 ## 2026-11-24
 
 - Updated the product name to LiftSelf, the official website to `/liftself`, and the public support repository to `liftself-support`.
-- LiftSelf public downloads are in preparation. The earlier Solift beta distribution has closed.
+- LiftSelf public downloads are in preparation. The official website uses the LiftSelf availability page for current download information.
 
 ## 2026-11-23 (Solift beta)
 
