@@ -18,4 +18,8 @@ Export a LiftSelf JSON backup outside the app before reinstalling, changing phon
 
 JSON restoration replaces the current journal after preview and confirmation, with recovery protection. CSV imports merge supported history and are not a full backup. Do not assume an automatic operating-system backup will recover the app’s private files. Protect exported files as personal information.
 
+## Moving from a previous test build
+
+Keep the previous app installed, then export a complete JSON backup to Files or another location outside that app. Open the file in LiftSelf, preview and restore it, and compare your workouts and templates before removing the earlier installation. Store entitlements stay with the app and store account used for the purchase.
+
 For current details and deletion behavior, use the [official support](https://hihihiai.com/liftself/support) and [privacy](https://hihihiai.com/liftself/privacy) pages. These instructions do not guarantee that every beta build has passed every multi-device or store test.
