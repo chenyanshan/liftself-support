@@ -23,3 +23,16 @@ JSON restoration replaces the current journal after preview and confirmation, wi
 Keep the previous app installed, then export a complete JSON backup to Files or another location outside that app. Open the file in LiftSelf, preview and restore it, and compare your workouts and templates before removing the earlier installation. Store entitlements stay with the app and store account used for the purchase.
 
 For current details and deletion behavior, use the [official support](https://hihihiai.com/liftself/support) and [privacy](https://hihihiai.com/liftself/privacy) pages. These instructions do not guarantee that every beta build has passed every multi-device or store test.
+
+## Verified example — Android 1.0.0 (20)
+
+On **27 November 2026**, the website’s released Android 1.0.0 (20) APK was checked in an **Android 16 / API 36 emulator**, using only the [fictional import sample](strong-hevy-import.md#reproducible-fictional-example--android-100-20).
+
+- After importing the sample, Wi-Fi and mobile data were disabled. Following force-stop and cold restart, History still showed Sample A and Sample B with their dates, exercises and loads.
+- The sample was exported to a full LiftSelf JSON file outside the app. Only this disposable test installation’s data was cleared; no personal device or user records were used.
+- After starting with empty workout history, **Import data** opened the JSON. The replacement preview showed workouts **0 → 2**. **Replace and restore** completed successfully.
+- A second JSON export was compared with the first: the entire `history` collection was deeply equal, including both workouts and their three sets. This comparison does not claim that every backup field was independently exercised.
+
+[Localized example](https://hihihiai.com/liftself/support#backup-example) · [History after restore](https://hihihiai.com/examples/liftself/restore-history.webp)
+
+This is a reproducible check on one emulator and one released APK, not evidence for iCloud, store purchases, watch-only records or every device. For your own data, keep a verified export outside the app before reinstalling or replacing a journal; do not clear your app data merely to try the example.

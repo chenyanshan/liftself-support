@@ -1,6 +1,6 @@
 # Import Strong or Hevy workout history into LiftSelf
 
-Publisher guide by HIHIHIAI Studio · Updated 23 November 2026 · [Product](https://hihihiai.com/liftself) · [Official import help](https://hihihiai.com/liftself/support#import)
+Publisher guide by HIHIHIAI Studio · Updated 27 November 2026 · [Product](https://hihihiai.com/liftself) · [Official import help](https://hihihiai.com/liftself/support#import)
 
 LiftSelf can preview and merge supported workout-history CSV exports from Strong and Hevy. This guide describes the current phone workflow. Export menus and file formats can change between source-app versions; use that app’s current official export instructions.
 
@@ -39,3 +39,29 @@ The implementation has been exercised with actual Strong and Hevy iPhone CSV exp
 Cancel rather than repeatedly confirming an unexpected preview. Keep the original unchanged, check that it is a workout-history CSV, and record the error message and app versions. A malformed or unsupported file must be corrected or exported again; do not delete columns merely to bypass an error.
 
 For help, send the header names and a minimal example using invented values, plus the error and selected units/time zone. Never post your entire export or backup in a public issue. Contact [support](https://hihihiai.com/liftself/support) for private troubleshooting.
+
+## Reproducible fictional example — Android 1.0.0 (20)
+
+Checked on **27 November 2026** in an Android 16 / API 36 emulator using the exact signed ARM64 APK distributed on the website. APK SHA-256: `e36fdd47011a1ef06c60a2b14cb0aeb169a7ddf1d84384bf2c03383a9c5941c4`.
+
+[Download the fictional CSV](https://hihihiai.com/examples/liftself/synthetic-hevy-format-v1.csv) · [Localized example and screenshots](https://hihihiai.com/liftself/support#import-example)
+
+This 521-byte file was generated from invented data using Hevy-style column names. **It was not exported by Hevy**, and a source-app version does not apply. It tests LiftSelf’s handling of this particular input, not the complete source-app export workflow or every historical/future format.
+
+1. Save the CSV and open it through **Settings → Your data → Backup & restore → Import data**. For your own journal, export a full JSON backup first.
+2. The preview detects **Hevy, 2 workouts, 3 completed sets**, with **kg/km**. The test used **Asia/Shanghai (UTC+08:00)** as the device/source timezone. The CSV dates do not include a timezone.
+3. Under **Review recording types**, review both exercises as **Weight & reps**. Confirm only after checking the preview.
+4. After import, check these exact values:
+
+| Workout | Date | Exercise | Completed sets |
+| --- | --- | --- | --- |
+| Sample A | 24 November 2026 | Bench Press (Barbell) | 20 kg × 8; 25 kg × 6 |
+| Sample B | 25 November 2026 | Squat (Barbell) | 30 kg × 5 |
+
+[Preview](https://hihihiai.com/examples/liftself/import-preview.webp) · [History](https://hihihiai.com/examples/liftself/import-history.webp) · [Sample A details](https://hihihiai.com/examples/liftself/import-detail.webp). Screenshots use the English interface and only fictional records.
+
+Opening the same unchanged CSV again showed **0 new workouts, 0 new sets, 2 previously imported workouts skipped**. The sample’s workout description appeared in the first exercise’s notes with the `[Hevy description]` marker; its exercise note was also visible. This does not establish preservation of RPE or other untested fields.
+
+A separate invalid CSV, `example,unsupported` followed by `fictional,1`, produced **“Missing column: date. Select a Strong or Hevy workout CSV.”** The import button was disabled. Keep a failing original intact; do not rename columns to bypass an error without understanding the source format.
+
+This example does not test other units, all exercise types, photos, purchases or every Strong/Hevy export variant. See the [backup and offline restart example](https://hihihiai.com/liftself/support#backup-example) for the same fictional records.
