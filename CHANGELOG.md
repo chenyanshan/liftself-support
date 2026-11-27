@@ -2,6 +2,11 @@
 
 This records publisher-confirmed changes. It does not declare an App Store or Google Play release.
 
+## 2026-11-27
+
+- Corrected English and Chinese availability to match the official website: Android 1.0.0 (20), signed ARM64 APK, Android 7.0+. The download has been public since November 25.
+- The direct APK does not offer Pro purchases. iOS App Store and watch availability remain in preparation; this is not a Google Play release.
+
 ## 2026-11-24
 
 - Updated the product name to LiftSelf, the official website to `/liftself`, and the public support repository to `liftself-support`.

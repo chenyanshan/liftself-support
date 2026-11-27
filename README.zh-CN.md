@@ -6,7 +6,9 @@ LiftSelf 是 HIHIHIAI Studio 开发的 iOS 和 Android 力量训练日志，以�
 
 本仓库由开发者维护，提供 [LiftSelf](https://hihihiai.com/zh/liftself) 的使用说明与反馈入口。
 
-LiftSelf 正在为 iOS 和 Android 准备发布，暂未开放下载。Apple Watch 和 Wear OS 伴侣仍在准备。获取最新状态请查看[官网](https://hihihiai.com/zh/liftself#download)。
+LiftSelf Android 版已可从[官网下载](https://hihihiai.com/zh/liftself#download)：正式签名 ARM64 APK，版本 1.0.0 (20)，要求 Android 7.0 或更高版本。此直装包暂不提供 Pro 购买，也不代表已在 Google Play 上架。
+
+iOS App Store 发布和 Apple Watch / Wear OS 伴侣仍在准备。最新版本与各平台状态以官网下载页为准。
 
 - 免费：无限训练记录、历史与模板，7 个自建动作，30 天图表，导入导出及完整备份。
 - Pro：无限自建动作和 12 周／一年／全历史分析，一次性买断。

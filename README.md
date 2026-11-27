@@ -10,13 +10,15 @@ This is the publisher-maintained documentation and feedback repository for the L
 
 ## Availability
 
-LiftSelf is being prepared for iOS and Android. Public downloads and the Apple Watch and Wear OS companions are in preparation. Check the [official availability page](https://hihihiai.com/liftself#download) for updates.
+LiftSelf for Android is available from the [official download page](https://hihihiai.com/liftself#download) as a signed ARM64 APK: version 1.0.0 (20), Android 7.0 or later. This direct download does not offer Pro purchases and is not a Google Play release.
+
+The iOS App Store release and Apple Watch / Wear OS companions remain in preparation. Check the official download page for the current version and platform status.
 
 ## Product facts
 
 | Question | Answer |
 | --- | --- |
-| Platforms | iOS and Android phone builds; Apple Watch and Wear OS companions in preparation |
+| Platforms | Android ARM64 APK available; iOS App Store release and Apple Watch / Wear OS companions in preparation |
 | Offline | Core workout recording and history work offline; store and iCloud operations require their services |
 | Account | No LiftSelf account or registration |
 | Data | Stored on your device; optional private iCloud sync in supported Apple builds |
