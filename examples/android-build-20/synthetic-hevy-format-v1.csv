@@ -1,0 +1,4 @@
+title,start_time,end_time,description,exercise_title,superset_id,exercise_notes,set_index,set_type,weight_kg,reps,distance_km,duration_seconds,rpe
+Sample A,"24 Nov 2026, 10:00","24 Nov 2026, 10:30",Synthetic workout,Bench Press (Barbell),,Synthetic exercise note,0,normal,20,8,,,
+Sample A,"24 Nov 2026, 10:00","24 Nov 2026, 10:30",Synthetic workout,Bench Press (Barbell),,Synthetic exercise note,1,normal,25,6,,,
+Sample B,"25 Nov 2026, 10:00","25 Nov 2026, 10:20",Synthetic workout,Squat (Barbell),,,0,normal,30,5,,,
