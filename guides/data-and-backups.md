@@ -33,6 +33,6 @@ On **27 November 2026**, the website’s released Android 1.0.0 (20) APK was che
 - After starting with empty workout history, **Import data** opened the JSON. The replacement preview showed workouts **0 → 2**. **Replace and restore** completed successfully.
 - A second JSON export was compared with the first: the entire `history` collection was deeply equal, including both workouts and their three sets. This comparison does not claim that every backup field was independently exercised.
 
-[Localized example](https://hihihiai.com/liftself/support#backup-example) · [History after restore](https://hihihiai.com/examples/liftself/restore-history.webp)
+[Backup help](https://hihihiai.com/liftself/support#save) · [History after restore](../examples/android-build-20/restore-history.webp)
 
 This is a reproducible check on one emulator and one released APK, not evidence for iCloud, store purchases, watch-only records or every device. For your own data, keep a verified export outside the app before reinstalling or replacing a journal; do not clear your app data merely to try the example.

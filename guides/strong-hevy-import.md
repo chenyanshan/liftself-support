@@ -44,7 +44,7 @@ For help, send the header names and a minimal example using invented values, plu
 
 Checked on **27 November 2026** in an Android 16 / API 36 emulator using the exact signed ARM64 APK distributed on the website. APK SHA-256: `e36fdd47011a1ef06c60a2b14cb0aeb169a7ddf1d84384bf2c03383a9c5941c4`.
 
-[Download the fictional CSV](https://hihihiai.com/examples/liftself/synthetic-hevy-format-v1.csv) · [Localized example and screenshots](https://hihihiai.com/liftself/support#import-example)
+[Download the fictional CSV](../examples/android-build-20/synthetic-hevy-format-v1.csv) · [Import help](https://hihihiai.com/liftself/support#import)
 
 This 521-byte file was generated from invented data using Hevy-style column names. **It was not exported by Hevy**, and a source-app version does not apply. It tests LiftSelf’s handling of this particular input, not the complete source-app export workflow or every historical/future format.
 
@@ -58,10 +58,10 @@ This 521-byte file was generated from invented data using Hevy-style column name
 | Sample A | 24 November 2026 | Bench Press (Barbell) | 20 kg × 8; 25 kg × 6 |
 | Sample B | 25 November 2026 | Squat (Barbell) | 30 kg × 5 |
 
-[Preview](https://hihihiai.com/examples/liftself/import-preview.webp) · [History](https://hihihiai.com/examples/liftself/import-history.webp) · [Sample A details](https://hihihiai.com/examples/liftself/import-detail.webp). Screenshots use the English interface and only fictional records.
+[Preview](../examples/android-build-20/import-preview.webp) · [History](../examples/android-build-20/import-history.webp) · [Sample A details](../examples/android-build-20/import-detail.webp). Screenshots use the English interface and only fictional records.
 
 Opening the same unchanged CSV again showed **0 new workouts, 0 new sets, 2 previously imported workouts skipped**. The sample’s workout description appeared in the first exercise’s notes with the `[Hevy description]` marker; its exercise note was also visible. This does not establish preservation of RPE or other untested fields.
 
 A separate invalid CSV, `example,unsupported` followed by `fictional,1`, produced **“Missing column: date. Select a Strong or Hevy workout CSV.”** The import button was disabled. Keep a failing original intact; do not rename columns to bypass an error without understanding the source format.
 
-This example does not test other units, all exercise types, photos, purchases or every Strong/Hevy export variant. See the [backup and offline restart example](https://hihihiai.com/liftself/support#backup-example) for the same fictional records.
+This example does not test other units, all exercise types, photos, purchases or every Strong/Hevy export variant. See the [backup and offline restart example](data-and-backups.md#verified-example--android-100-20) for the same fictional records.
